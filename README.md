@@ -13,7 +13,7 @@ git init
 
 - git 설정
 ```bash
-git config user.name "HoJeong Moon"
+git config user.name "mary"
 git config user.email firstmoon5@naver.com
 #공용 git 설정을 하려면 -g
 #예) git config -g user.name 이름
