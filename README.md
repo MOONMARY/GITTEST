@@ -55,3 +55,11 @@ git remote add origin https://github.com/MOONMARY/GITTEST.git
 git push -u origin master # 첫번째 푸시
 git push # 기본원격지 현재브랜치를 푸시
 ```
+
+### Form GitHub to Locl Git
+- 복제할 원격 저장소 주소 확보
+- 복제
+```bash
+git clone https://github.com/MOONMARY/GITTEST.git
+# git clone 원격지주소
+```
