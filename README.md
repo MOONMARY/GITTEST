@@ -4,7 +4,7 @@
 - GIT : **분산** 버전 관리 시스템
 - GITHUB : **원격 GIT 저장소**
 
-## Local Git
+### Local Git
 
 - 저장소 생성
 ```bash
@@ -39,3 +39,19 @@ git commit -m "First Commit"
 git status  #상태확인
 git log #로그확인
 ```
+
+### Local Git to GITHUB
+- GitHub에서 저장소 생성
+- 저장소 주소
+    - https://github.com/MOONMARY/GITTEST.git
+
+- 원격지 등록
+```bash
+git remote add origin https://github.com/MOONMARY/GITTEST.git
+#git remote add 저장소이름 저장소주소
+```
+- push
+```bash
+git push -u origin master # 첫번째 푸시
+```
+
